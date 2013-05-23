@@ -12,9 +12,10 @@ The modules we need
 A small module to easily query rest api
 
     encodeUrlParams = (params) ->
-      encoded = "?"
+      encoded = ""
       for key, value of params
-        encoded += (if encoded != "?" then "&" else "") + "#{key}=#{value}"
+        encoded += (if encoded != "" then "&" else "") + "#{key}=#{value}"
+      encoded = "?" + encoded if encoded != ""
       encoded
         
 
