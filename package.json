@@ -1,6 +1,6 @@
 {
   "name": "restapi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A small rest api client",
   "main": "restapi.litcoffee",
   "repository": {

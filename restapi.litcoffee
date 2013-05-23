@@ -36,6 +36,11 @@ A small module to easily query rest api
 
         (params, done) => 
           
+          # params is a optional parameter
+          if not done?
+            params = {}
+            done = params
+
           params = _.extend(params, @options.params) if @options.params?
 
           for i in [0...parameters.length]
