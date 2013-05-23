@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Rest Api
 =========
 
@@ -57,3 +58,9 @@ class RestApi
 ```
 
     module.exports = RestApi
+=======
+restapi
+=======
+
+rest api
+>>>>>>> 74101fd0a509e7b33ee6a2523e95cb2c2e73ac1a
