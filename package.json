@@ -1,13 +1,15 @@
 {
   "name": "restapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small rest api client",
   "main": "restapi.litcoffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:MathieuGuillout/restapi.git"
+  }
+  "author": "matttam",
   "license": "BSD",
   "dependencies": {
     "request": "~2.21.0",
