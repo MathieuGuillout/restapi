@@ -3,12 +3,10 @@
   "version": "0.0.2",
   "description": "A small rest api client",
   "main": "restapi.litcoffee",
-  "scripts": {
-  },
   "repository": {
     "type" : "git",
     "url" : "git@github.com:MathieuGuillout/restapi.git"
-  }
+  },
   "author": "matttam",
   "license": "BSD",
   "dependencies": {
